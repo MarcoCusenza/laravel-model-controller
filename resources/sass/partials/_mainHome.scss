@@ -1,0 +1,48 @@
+.mainHome {
+  margin-top: 50px;
+
+  .container {
+    .containerCard {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      gap: 10px;
+
+      li {
+        max-width: 200px;
+        background-color: aquamarine;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 20px;
+
+        &:hover {
+          background-color: rgb(84, 199, 161);
+          cursor: pointer;
+        }
+
+        .text {
+          height: 70%;
+          .title {
+            font-weight: 700;
+            text-align: center;
+          }
+
+          .original_title {
+            font-style: italic;
+            margin-top: 5px;
+            text-align: center;
+          }
+        }
+
+        .vote {
+          margin-top: 20px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
