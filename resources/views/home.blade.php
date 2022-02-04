@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('pageTitle')
-    Fans
+    Home
 @endsection
 
 @section('pageContent')
